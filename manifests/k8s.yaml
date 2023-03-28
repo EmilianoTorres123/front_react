@@ -14,7 +14,7 @@ spec:
         app: {model_name_test}-server
     spec:
       containers:
-      - name: {model_name}-container
+      - name: {model_name_test}-container
         #image: gcr.io/tensorflow-serving/resnet 
         image: docker.io/{docker_user}/{model_name_test}:{github.sha}
         ports:
