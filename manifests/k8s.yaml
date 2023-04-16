@@ -6,7 +6,8 @@ metadata:
 spec:
   selector:
     matchLabels:
-      app: {model_name_test}-server
+      app: {model_name}-server
+        master
   replicas: {nodo}
   template:
     metadata:
