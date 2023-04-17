@@ -1,5 +1,6 @@
 import './App.css';
 import imageRickMorty from './img/morty-rick.png';
+import imageCredencial from './img/foto-credencial.png'
 import { useState } from 'react';
 import Characters from './components/Characters';
 
@@ -21,6 +22,7 @@ function App() {
         <h1 className='gradogrupo'>6 semestre del 601</h1>
         <h1 className='carrera'>Ingenieria de software</h1>
         <h1 className='escuela'>Universidad veracruzana</h1>
+        <img src={imageCredencial} alt="credencial" className='img-credencial'></img>
         
 
         {characters ? (

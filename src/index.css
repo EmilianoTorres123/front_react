@@ -61,10 +61,13 @@ body {
     font-family: fantasy, sans-serif;
     margin-bottom: 0;
   }
-  
   .img-home {
-    width: 500px;
-    padding: 50px;
+    width: 200px;
+
+  }
+  .img-credencial {
+    width: 200px;
+    
   }
   
   .btn-search {
